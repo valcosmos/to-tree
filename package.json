@@ -1,7 +1,8 @@
 {
-  "name": "to-tree",
+  "name": "@valcosmos/to-tree",
   "version": "0.0.1",
   "author": "Cupid Valentine",
+  "private": false,
   "license": "MIT",
   "keywords": [
     "array",
