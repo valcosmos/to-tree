@@ -1,0 +1,36 @@
+{
+  "name": "array-to-tree",
+  "version": "0.0.1",
+  "author": "Cupid Valentine",
+  "license": "MIT",
+  "keywords": [
+    "array",
+    "tree",
+    "JavaScript",
+    "TypeScript",
+    "utils"
+  ],
+  "description": "A tool for flattened array to the tree",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf ./dist && tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.5.0",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
+  }
+}
