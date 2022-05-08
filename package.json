@@ -24,7 +24,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch",
     "build": "rimraf ./dist && tsc",
     "prepublishOnly": "yarn test && yarn build"
   },
