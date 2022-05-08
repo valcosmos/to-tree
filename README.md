@@ -64,3 +64,21 @@ const arr = [
 // use it to convert, and you will get what you want
 const res = toTree(arr, '_id', 'parentId')
 ```
+
+## Development
+use gitpod:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://valcosmos-totree-x8k0k0b3u6k.ws-us44.gitpod.io)
+
+clone locally:
+
+```sh
+git clone https://github.com/valcosmos/toTree.git
+
+cd toTree
+
+yarn
+
+yarn test
+```
+
