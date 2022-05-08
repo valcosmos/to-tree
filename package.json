@@ -11,6 +11,11 @@
     "utils"
   ],
   "description": "A tool for flattened array to the tree",
+  "homepage": "https://github.com/valcosmos/toTree",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valcosmos/toTree"
+  },
   "files": [
     "dist"
   ],
