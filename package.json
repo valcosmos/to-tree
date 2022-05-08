@@ -26,7 +26,7 @@
   "scripts": {
     "test": "jest --watch",
     "build": "rimraf ./dist && tsc",
-    "prepublishOnly": "yarn test && yarn build"
+    "prepublishOnly": "jest && yarn build"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
