@@ -10,19 +10,19 @@
 use npm:
 
 ```sh
-npm i toTree
+npm i @valcosmos/to-tree
 ```
 
 use yarn:
 
 ```sh
-yarn add toTree
+yarn add @valcosmos/to-tree
 ```
 
 use pnpm:
 
 ```sh
-pnpm add toTree
+pnpm add @valcosmos/to-tree
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ pnpm add toTree
  * @returns
  */
 
-import { toTree } from 'toTree'
+import { toTree } from '@valcosmos/to-tree'
 
 const arr = [
   { id: 1, title: '1', pid: 0 },
@@ -53,7 +53,7 @@ Maybe you don't have field for **id** and **pid** in your data. And this time yo
 You just need to pass two parameters in the **toTree**.
 
 ```ts
-import { toTree } from 'toTree'
+import { toTree } from '@valcosmos/to-tree'
 
 const arr = [
   { _id: 1, title: '1', parentId: 0 },
