@@ -14,7 +14,7 @@
 
 ## Introduction
 
-- A tool for converting flattened array into tree.
+- A tool for converting **flattened array** into **tree**.
 - I made this by **TypeScript**.
 - If you like it, you can give a star on github
 - If you get some issues, welcome to submit issues on github.
