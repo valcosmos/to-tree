@@ -1,4 +1,4 @@
-<h1 align="center">To Tree</h1>
+<h1 align="center">@valcosmos/to-tree</h1>
 
 <div align="center">
 
