@@ -29,10 +29,10 @@
     "prepublishOnly": "jest && yarn build"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.4",
-    "@babel/preset-env": "^7.21.4",
-    "@babel/preset-typescript": "^7.21.4",
-    "@types/jest": "^29.5.0",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "@types/jest": "^29.5.1",
     "babel-jest": "^29.5.0",
     "jest": "^29.5.0",
     "rimraf": "^5.0.0",
