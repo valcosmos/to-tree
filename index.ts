@@ -1,12 +1,12 @@
 /**
+ * Converts a flat array structure to a tree structure.
  *
- * @param data ==> the data what you want to converted to tree
- * @param key ==> the unique key in the data
- * @param parentKey ==> the unique key of the parent node in the data
- * @returns
+ * @param data - The array of data to be converted into a tree structure.
+ * @param key - The property name used as the unique identifier for each item (default: 'id').
+ * @param parentKey - The property name that references the parent's identifier (default: 'pid').
+ * @returns An array representing the tree structure.
  */
-
-export const toTree = <T>(data: T[], key?: string, parentKey?: string): T[] => {
+export const toTree = <T> (data: T[], key?: string, parentKey?: string): T[] => {
   const idProps = key || 'id'
   const pidProps = parentKey || 'pid'
 

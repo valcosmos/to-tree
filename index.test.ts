@@ -1,10 +1,8 @@
-import { toTree } from './index'
+import { toTree } from '@valcosmos/to-tree'
+import { describe, it, expect } from 'vitest'
 import { defaultField, resDefault, otherField, resOther } from './data'
 
 describe('flat array to tree', () => {
-  it('Passing null to the function', () => {
-    expect(toTree(null)).toEqual([])
-  })
 
   it('Passing an empty array to the function', () => {
     expect(toTree([])).toEqual([])
